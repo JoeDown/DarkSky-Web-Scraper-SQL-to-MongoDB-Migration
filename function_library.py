@@ -1,30 +1,35 @@
 #This is a function library for mod2 project
 
-import sqlite3 as sqlite3
+import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
-# from pathlib import Path
+from pathlib import Path
 
-# def con_sql(db_name, dialect=None):
-# 	db_file = Path(db_name)
-# 	if not db_file.is_file():
-# 		print("no such database file: {}".format(db_name))
-# 		return
-# 	if dialect is None:
-# 		return sqlite3.connect(db_name)
-# 	return sqlite3.connect(db_name, dialect)
+def con_sql(db_name, dialect=None):
+	db_file = Path(db_name)
+	if not db_file.is_file():
+		print("no such database file: {}".format(db_name))
+		return
+	if dialect is None:
+		return sqlite3.connect(db_name)
+	return sqlite3.connect(db_name, dialect)
 
+conn11 = sqlite3.Connection('database.sqlite2')
+c = conn11.cursor()
+c.close()
 
 conn = sqlite3.Connection('database.sqlite')
 c = conn.cursor()
 
+c.execute("""SELECT * FROM Matches;""").fetchall()
 
-c.execute('''SELECT * FROM Matches''').fetchall()
+
+
 
 class Team:
     def __init__(self, name):
         self.name = name
-        self.record = None
+        self.record = []
         self.goals_scored = None
         self.game_dates_and_results_list = None
 
@@ -97,13 +102,14 @@ class Team:
 
         draws = pd.read_sql_query(q, conn)
         num_draws = draws.shape[0]
-        print(num_wins)
-        self.record = [num_wins,num_losses,num_draws]
+        record_list = [num_wins,num_losses,num_draws]
+        print(record_list)
+        self.record.append(num_wins)
+        self.record.append(num_losses)
+        self.record.append(num_draws)
 
-
-BM = Team('Bayern Munich')
-BM.set_record
-print(f'the record of Bayern Munich is: {BM.record}')
+    def set_name(self, name):
+        self.name = name
 
 
 
@@ -120,4 +126,6 @@ def get_team_list():
         team_name_list = list(df.TeamName)
         
         return team_name_list
+
+
 
