@@ -18,9 +18,8 @@ import matplotlib.pyplot as plt
 conn = sqlite3.Connection('database.sqlite')
 c = conn.cursor()
 
-c.execute('''SELECT Season
-            FROM Matches
-            WHERE Season=2011''').fetchall()
+
+c.execute('''SELECT * FROM Matches''').fetchall()
 
 class Team:
     def __init__(self, name):
