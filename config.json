@@ -1,0 +1,23 @@
+{
+    "key": "5e1fda03feeb6dd82c54b6af77d56a6d",
+    "lat": 52.520008,
+    "lon": 13.404954,
+    "units": "auto",
+	"output_directory": "responses/",
+	"outfile_suffix": "darksky",
+    "exclude": [
+        "currently",
+        "minutely",
+        "hourly",
+        "alerts",
+        "flags"
+    ],
+    "exclusions": [
+        "currently",
+        "minutely",
+        "hourly",
+        "daily",
+        "alerts",
+        "flags"
+    ]
+}

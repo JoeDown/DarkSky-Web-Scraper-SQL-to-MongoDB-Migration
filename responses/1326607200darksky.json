@@ -1,0 +1,45 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1326582000,
+                "summary": "Mostly cloudy starting in the evening.",
+                "icon": "partly-cloudy-night",
+                "sunriseTime": 1326611439,
+                "sunsetTime": 1326641158,
+                "moonPhase": 0.72,
+                "precipAccumulation": 0,
+                "precipType": "snow",
+                "temperatureHigh": 34.08,
+                "temperatureHighTime": 1326632400,
+                "temperatureLow": 22.03,
+                "temperatureLowTime": 1326657600,
+                "apparentTemperatureHigh": 28.9,
+                "apparentTemperatureHighTime": 1326632400,
+                "apparentTemperatureLow": 18.15,
+                "apparentTemperatureLowTime": 1326672000,
+                "dewPoint": 24.53,
+                "humidity": 0.9,
+                "pressure": 1025.12,
+                "windSpeed": 3.86,
+                "windBearing": 300,
+                "cloudCover": 0.29,
+                "uvIndex": 1,
+                "uvIndexTime": 1326625200,
+                "visibility": 6.21,
+                "temperatureMin": 22.03,
+                "temperatureMinTime": 1326657600,
+                "temperatureMax": 34.08,
+                "temperatureMaxTime": 1326632400,
+                "apparentTemperatureMin": 19.75,
+                "apparentTemperatureMinTime": 1326603600,
+                "apparentTemperatureMax": 28.9,
+                "apparentTemperatureMaxTime": 1326632400
+            }
+        ]
+    },
+    "offset": 1
+}

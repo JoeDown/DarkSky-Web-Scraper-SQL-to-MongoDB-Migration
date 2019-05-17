@@ -1,0 +1,44 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1317506400,
+                "summary": "Foggy in the morning.",
+                "icon": "fog",
+                "sunriseTime": 1317532273,
+                "sunsetTime": 1317573962,
+                "moonPhase": 0.18,
+                "precipType": "rain",
+                "temperatureHigh": 77.3,
+                "temperatureHighTime": 1317560400,
+                "temperatureLow": 46.15,
+                "temperatureLowTime": 1317607200,
+                "apparentTemperatureHigh": 77.3,
+                "apparentTemperatureHighTime": 1317560400,
+                "apparentTemperatureLow": 46.15,
+                "apparentTemperatureLowTime": 1317607200,
+                "dewPoint": 50.08,
+                "humidity": 0.84,
+                "pressure": 1025.55,
+                "windSpeed": 1.23,
+                "windBearing": 161,
+                "cloudCover": 0.12,
+                "uvIndex": 3,
+                "uvIndexTime": 1317549600,
+                "visibility": 5.12,
+                "temperatureMin": 42.54,
+                "temperatureMinTime": 1317524400,
+                "temperatureMax": 77.3,
+                "temperatureMaxTime": 1317560400,
+                "apparentTemperatureMin": 42.54,
+                "apparentTemperatureMinTime": 1317524400,
+                "apparentTemperatureMax": 77.3,
+                "apparentTemperatureMaxTime": 1317560400
+            }
+        ]
+    },
+    "offset": 2
+}

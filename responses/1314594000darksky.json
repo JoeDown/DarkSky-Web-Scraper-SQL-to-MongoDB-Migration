@@ -1,0 +1,44 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1314568800,
+                "summary": "Mostly cloudy throughout the day and breezy starting in the afternoon, continuing until evening.",
+                "icon": "wind",
+                "sunriseTime": 1314591355,
+                "sunsetTime": 1314641109,
+                "moonPhase": 0.02,
+                "precipType": "rain",
+                "temperatureHigh": 67.75,
+                "temperatureHighTime": 1314622800,
+                "temperatureLow": 49.74,
+                "temperatureLowTime": 1314676800,
+                "apparentTemperatureHigh": 67.75,
+                "apparentTemperatureHighTime": 1314622800,
+                "apparentTemperatureLow": 46.91,
+                "apparentTemperatureLowTime": 1314676800,
+                "dewPoint": 48.8,
+                "humidity": 0.72,
+                "pressure": 1014.5,
+                "windSpeed": 6.47,
+                "windBearing": 238,
+                "cloudCover": 0.6,
+                "uvIndex": 5,
+                "uvIndexTime": 1314615600,
+                "visibility": 6.21,
+                "temperatureMin": 49.74,
+                "temperatureMinTime": 1314586800,
+                "temperatureMax": 67.75,
+                "temperatureMaxTime": 1314622800,
+                "apparentTemperatureMin": 49.74,
+                "apparentTemperatureMinTime": 1314586800,
+                "apparentTemperatureMax": 67.75,
+                "apparentTemperatureMaxTime": 1314622800
+            }
+        ]
+    },
+    "offset": 2
+}

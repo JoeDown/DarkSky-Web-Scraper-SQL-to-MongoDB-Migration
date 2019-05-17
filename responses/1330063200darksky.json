@@ -1,0 +1,46 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1330038000,
+                "summary": "Foggy in the morning and breezy in the evening.",
+                "icon": "wind",
+                "sunriseTime": 1330063626,
+                "sunsetTime": 1330101503,
+                "moonPhase": 0.08,
+                "precipIntensity": 0,
+                "precipIntensityMax": 0,
+                "precipProbability": 0,
+                "temperatureHigh": 51.91,
+                "temperatureHighTime": 1330092000,
+                "temperatureLow": 37.14,
+                "temperatureLowTime": 1330153200,
+                "apparentTemperatureHigh": 51.91,
+                "apparentTemperatureHighTime": 1330092000,
+                "apparentTemperatureLow": 29.94,
+                "apparentTemperatureLowTime": 1330153200,
+                "dewPoint": 44.29,
+                "humidity": 0.89,
+                "pressure": 1018.23,
+                "windSpeed": 13.86,
+                "windBearing": 252,
+                "cloudCover": 0.81,
+                "uvIndex": 2,
+                "uvIndexTime": 1330081200,
+                "visibility": 4.23,
+                "temperatureMin": 44.34,
+                "temperatureMinTime": 1330038000,
+                "temperatureMax": 51.91,
+                "temperatureMaxTime": 1330092000,
+                "apparentTemperatureMin": 38.08,
+                "apparentTemperatureMinTime": 1330038000,
+                "apparentTemperatureMax": 51.91,
+                "apparentTemperatureMaxTime": 1330092000
+            }
+        ]
+    },
+    "offset": 1
+}

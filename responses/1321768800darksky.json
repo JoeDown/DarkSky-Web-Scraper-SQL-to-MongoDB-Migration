@@ -1,0 +1,44 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1321743600,
+                "summary": "Foggy starting in the evening.",
+                "icon": "fog",
+                "sunriseTime": 1321771047,
+                "sunsetTime": 1321801956,
+                "moonPhase": 0.82,
+                "precipType": "rain",
+                "temperatureHigh": 44.34,
+                "temperatureHighTime": 1321794000,
+                "temperatureLow": 26.37,
+                "temperatureLowTime": 1321855200,
+                "apparentTemperatureHigh": 42.81,
+                "apparentTemperatureHighTime": 1321801200,
+                "apparentTemperatureLow": 24.32,
+                "apparentTemperatureLowTime": 1321858800,
+                "dewPoint": 36.52,
+                "humidity": 0.91,
+                "pressure": 1023.97,
+                "windSpeed": 2.92,
+                "windBearing": 139,
+                "cloudCover": 0.63,
+                "uvIndex": 1,
+                "uvIndexTime": 1321783200,
+                "visibility": 3.57,
+                "temperatureMin": 28.15,
+                "temperatureMinTime": 1321822800,
+                "temperatureMax": 44.34,
+                "temperatureMaxTime": 1321794000,
+                "apparentTemperatureMin": 24.32,
+                "apparentTemperatureMinTime": 1321822800,
+                "apparentTemperatureMax": 42.81,
+                "apparentTemperatureMaxTime": 1321801200
+            }
+        ]
+    },
+    "offset": 1
+}

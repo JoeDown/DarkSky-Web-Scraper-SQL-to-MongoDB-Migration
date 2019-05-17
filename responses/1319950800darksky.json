@@ -1,0 +1,44 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1319925600,
+                "summary": "Foggy overnight.",
+                "icon": "fog",
+                "sunriseTime": 1319954394,
+                "sunsetTime": 1319989550,
+                "moonPhase": 0.13,
+                "precipType": "rain",
+                "temperatureHigh": 58.74,
+                "temperatureHighTime": 1319979600,
+                "temperatureLow": 40.74,
+                "temperatureLowTime": 1320022800,
+                "apparentTemperatureHigh": 58.74,
+                "apparentTemperatureHighTime": 1319979600,
+                "apparentTemperatureLow": 40.74,
+                "apparentTemperatureLowTime": 1320022800,
+                "dewPoint": 47.55,
+                "humidity": 0.87,
+                "pressure": 1022.8,
+                "windSpeed": 3.51,
+                "windBearing": 187,
+                "cloudCover": 0.75,
+                "uvIndex": 1,
+                "uvIndexTime": 1319965200,
+                "visibility": 4.23,
+                "temperatureMin": 44.34,
+                "temperatureMinTime": 1319940000,
+                "temperatureMax": 58.74,
+                "temperatureMaxTime": 1319979600,
+                "apparentTemperatureMin": 41.85,
+                "apparentTemperatureMinTime": 1319940000,
+                "apparentTemperatureMax": 58.74,
+                "apparentTemperatureMaxTime": 1319979600
+            }
+        ]
+    },
+    "offset": 1
+}

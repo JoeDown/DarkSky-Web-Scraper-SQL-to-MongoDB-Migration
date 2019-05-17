@@ -1,0 +1,44 @@
+{
+    "latitude": 52,
+    "longitude": 13,
+    "timezone": "Europe/Berlin",
+    "daily": {
+        "data": [
+            {
+                "time": 1316296800,
+                "summary": "Mostly cloudy throughout the day.",
+                "icon": "partly-cloudy-day",
+                "sunriseTime": 1316321299,
+                "sunsetTime": 1316366335,
+                "moonPhase": 0.68,
+                "precipType": "rain",
+                "temperatureHigh": 62.34,
+                "temperatureHighTime": 1316336400,
+                "temperatureLow": 49.74,
+                "temperatureLowTime": 1316404800,
+                "apparentTemperatureHigh": 62.72,
+                "apparentTemperatureHighTime": 1316336400,
+                "apparentTemperatureLow": 48.98,
+                "apparentTemperatureLowTime": 1316408400,
+                "dewPoint": 57.17,
+                "humidity": 0.94,
+                "pressure": 1005.86,
+                "windSpeed": 4.23,
+                "windBearing": 199,
+                "cloudCover": 0.76,
+                "uvIndex": 3,
+                "uvIndexTime": 1316340000,
+                "visibility": 5.95,
+                "temperatureMin": 53.34,
+                "temperatureMinTime": 1316368800,
+                "temperatureMax": 62.34,
+                "temperatureMaxTime": 1316296800,
+                "apparentTemperatureMin": 53.34,
+                "apparentTemperatureMinTime": 1316368800,
+                "apparentTemperatureMax": 62.72,
+                "apparentTemperatureMaxTime": 1316296800
+            }
+        ]
+    },
+    "offset": 2
+}
