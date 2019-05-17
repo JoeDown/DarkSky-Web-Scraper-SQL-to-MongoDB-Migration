@@ -3,3 +3,11 @@
 *.pytest_cache
 *.pyc
 *__pycache__
+
+config.json
+responses/*
+expl_configed_resp.json
+2011_dates.csv
+Joe Scratch.ipynb
+Joe_Trial_1.ipynb
+Joe_Trial_2.ipynb
