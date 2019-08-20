@@ -1,25 +1,17 @@
 
 # Module 2 Summative Lab
 
-## Introduction
-
-For today's section, we're going to work on a single big lab to apply everything we've learned in Module 2!
-
-## About This Lab
-
-A quick note before getting started--this lab isn't like other labs you seen so far. This lab is meant to take ~8 hours to complete, so it's much longer and more challenging that the average labs you've seen so far. If you feel like this lab is challenging or that you might be struggling a bit, don't fret--that's by design! With everything we've learned about Web Scraping, APIs, and Databases, the best way to test our knowledge of it is to build something substantial! 
-
 ## The Project
 
-In this lab, we're going to make use of everything we've learned about APIs, databases, and Object-Oriented Programming to **_Extract, Transform, and Load_** (or **_ETL_**, for short) some data from a SQL database into a MongoDB Database. 
+In this project, we going to make use of everything we've learned about APIs, databases, and Object-Oriented Programming to **_Extract, Transform, and Load_** (or **_ETL_**, for short) some data from a SQL database into a MongoDB Database. 
 
-You'll find a database containing information about soccer teams and the matches they've played in the file `database.sqlite`. For this project, our goal is to get the data we think is important from this SQL database, do some calculations and data transformation, and then store everything in a MongoDB database. 
+This repository contains a database with information about soccer teams and the matches they've played in the file `database.sqlite`. For this project, our goal is to get the data we think is important from this SQL database, do some calculations and data transformation, and then store everything in a MongoDB database. 
 
 Let's get into the specifics of this project.
 
 ### The Goal
 
-Start by examining the data dictionary for the SQL database we'll be working with, which comes from this [kaggle page](https://www.kaggle.com/laudanum/footballdelphi).  Familiarize yourself with the tables it contains, and what each column means. We'll be using this database to get data on each soccer team, calculate some summary statistics, and then store each in a MongoDB database. 
+We will start by examining the data dictionary for the SQL database we'll be working with, which comes from this [kaggle page](https://www.kaggle.com/laudanum/footballdelphi).  Familiarize yourself with the tables it contains, and what each column means. We'll be using this database to get data on each soccer team, calculate some summary statistics, and then store each in a MongoDB database. 
 
 Upon completion of this lab, each unique team in this dataset should have a record in the MongoDB instance containing the following information:
 
@@ -53,32 +45,3 @@ We **_strongly recommend_** you consider creating separate classes for handling 
 It's totally okay to try to get a task working without using OOP. For instance, when experimenting with the DarkSky API for getting historical weather data, it makes sense to just write the code in the cells and rapidly iterate until you get it all working. However, once you get it working, you're not done--you should then **_Refactor_** your code into functions or classes to make your code more modular, reusable, understandable, and maintainable! 
 
 In short--do what you need to do to get each separate piece of functionality working, and then refactor it into a class after you've figured it out!
-
-### Some Final Advice
-
-You haven't built anything this big or complex thus far, so you may not yet fully realize how much trial and error goes into it. If your code keeps breaking, resist the urge to get frustrated, and just keep working. Software development is an iterative process!  No one writes perfect code that works the first time for something this involved. You're going to run into _a lot_ of small errors in this project, right up until the point where it just works, and then you're done! However, you can reduce these errors by planning out your code, and thinking about how all of the pieces fit together before you begin coding. Once you have some basic understanding of how it all will work, then you'll know what you need to build, and then all that is left is to build it!
-
-In short:
-
-* Plan ahead--you'll thank yourself later!
-* Errors and broken code aren't bad, they're normal. 
-* Keep working, and stay confident--you can do this!
-
-Good luck--we look forward to seeing your completed project!
-
-
-```python
-# You don't have to use these classes, but we recommend them as a good place to start!
-class WeatherGetter():
-    pass
-```
-
-
-```python
-class MongoHandler():
-    pass
-```
-
-# Summary
-
-In this lab, we dug deep and used everything we've learned so far about python programming, databases, HTTP requests and API calls to ETL data from a SQL database into a MongoDB instance!
